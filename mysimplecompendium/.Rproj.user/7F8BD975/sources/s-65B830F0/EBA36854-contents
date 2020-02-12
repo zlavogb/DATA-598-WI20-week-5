@@ -1,0 +1,42 @@
+---
+title: "new_vignette"
+author: Bianca Zlavog
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+bibliography: bibliography.bib
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{new_vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+knitr::read_chunk("r-code.R")
+```
+
+Here is some code to make a plot of Star Wars data:
+
+```{r, starwars-plot, fig.cap = "A ggplot of starwars"}
+library(tidyverse)
+starwars %>% filter(species == "Human") %>% 
+  ggplot() +
+  aes(x=height, y = mass) + geom_point()
+```
+
+Figure \@ref(fig:starwars-plot) is shown above.
+
+```{r calculation, eval = TRUE}
+
+```
+
+
+Here is an in-text citation of [@DBLP:journals/corr/abs-1802-03311].
+
+
+# References cited
+

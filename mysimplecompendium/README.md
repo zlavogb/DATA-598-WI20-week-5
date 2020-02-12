@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of mysimplecompendium is to ...
+The goal of mysimplecompendium is to demonstrate the use of a R package for reproducible research.
 
 ## Installation
 
@@ -25,8 +25,11 @@ library(mysimplecompendium)
 
 ## License
 Code:  See the DESCRIPTION file
+
 Data: MIT
+
 Text and figures:  MIT
+
 Please see the included LICENSE.md for more information.
 
 
