@@ -14,15 +14,6 @@ You can install the released version of mysimplecompendium from [CRAN](https://C
 install.packages("mysimplecompendium")
 ```
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(mysimplecompendium)
-## basic example code
-```
-
 ## License
 Code:  See the DESCRIPTION file
 
@@ -34,4 +25,4 @@ Please see the included LICENSE.md for more information.
 
 
 ## Code of conduct
-Please see the included file for the guidelines governing this project.
+Please see the included CODE_OF_CONDUCT.md for the guidelines governing this project.

@@ -3,7 +3,7 @@ title: "new_vignette"
 author: Bianca Zlavog
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 bibliography: bibliography.bib
-output: rmarkdown::html_vignette
+output: bookdown::html_document2
 vignette: >
   %\VignetteIndexEntry{new_vignette}
   %\VignetteEngine{knitr::rmarkdown}

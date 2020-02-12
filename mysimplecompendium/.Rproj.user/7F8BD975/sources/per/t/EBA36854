@@ -7,11 +7,14 @@
     "folds" : "",
     "hash" : "968809229",
     "id" : "EBA36854",
-    "lastKnownWriteTime" : 1581485496,
-    "last_content_update" : 1581485496,
+    "lastKnownWriteTime" : 1581487061,
+    "last_content_update" : 1581487061256,
     "path" : "~/Desktop/UW/5_DATA_598AB/DATA-598-WI20-week-5/mysimplecompendium/vignettes/new_vignette.Rmd",
     "project_path" : "vignettes/new_vignette.Rmd",
     "properties" : {
+        "cursorPosition" : "9,27",
+        "scrollLine" : "0",
+        "working_dir" : "default"
     },
     "relative_order" : 1,
     "source_on_save" : false,
